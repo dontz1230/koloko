@@ -1,0 +1,148 @@
+* {
+  box-sizing:border-box;
+  font-family: 'Noto Sans TC', sans-serif;
+  
+}
+
+ul {
+  list-style:none;
+}
+
+.nav-icon {
+  color:#EF5350;
+  font-size:2rem;
+  
+}
+
+.nav-icon:hover {
+  color:white;
+  font-size:2rem;
+}
+
+.navbar-brand img {
+  height:3rem;
+  width:auto;
+  padding:0 !important;
+  margin:0 !important;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #EF5350;
+  background: #FFF3E0!important;
+}
+
+.navbar-icon {
+  font-size:2rem;
+  color: #EF5350;
+  text-decoration:none;
+}
+
+.navbar-toggler, .nav-link {
+  color: #616161;
+}
+
+.nav-link:hover {
+  color: #EF5350;
+}
+
+/*Carousel*/
+.carousel-item img {
+  width:100vw;
+}
+
+.carousel-inner {
+  overflow:hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .carousel {
+  height:80vh;
+  overflow:hidden;
+}
+  .carousel-item img {
+    height:80vh;
+  }
+  
+}
+
+.skills-icon {
+  color: #ffc107;
+  font-size:3rem;
+  transition:all 0.2s ease-in-out;
+}
+
+.skills-icon:hover {
+  font-size:4rem;
+  color:#EF5350;
+}
+
+.skills-underline {
+  background: #ffc107;
+  width:7rem;
+  height:0.3rem;
+  margin:1rem auto;
+}
+
+/*問題區*/
+.question {
+  background:url('https://pse.is/KMUJE') center/cover fixed no-repeat;
+}
+
+.question-icon {
+  font-size:4rem;
+  transition:all 0.3s ease-in-out;
+  
+}
+
+.question-icon:hover {
+  font-size:5rem;
+  color:white;
+}
+
+.q1 {
+  background: rgba(255,255,255,0.6);
+}
+
+.q2 {
+  background: rgba(0,0,0,0.3);
+}
+
+
+/*圖片卡客製化*/
+.card {
+  overflow: hidden !important;
+}
+
+.card-img-top {
+  height:200px !important;
+  width:100% !important;
+}
+
+.card-body {
+  height:100px;
+}
+
+/*footer*/
+.footer{
+  background: #757575;
+  color:white;
+  transition: all .2s ease-in-out
+  }  
+  
+  .copyright p{
+    border-top:1px solid rgba(255,255,255,.1);
+} 
+
+footer a {
+    color:white;
+    transition: color .2s;
+  }
+
+footer a:hover {
+    color:#F9A825;
+  }
+
+.footerIcon {
+    font-size: 25px;
+  }
